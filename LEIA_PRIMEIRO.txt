@@ -1,0 +1,13 @@
+ORBisOS 1.0 — PROJETO-FONTE
+============================
+1. Extraia este arquivo ZIP.
+2. Abra a pasta OrbisOS no VS Code.
+3. Leia README.md e STATUS_DA_ENTREGA.md.
+4. Instale com npm install (requer internet), configure Supabase e execute as migrações 001 e 002.
+5. Copie .env.example para .env.local e insira URL e chave PÚBLICA do Supabase.
+6. Execute npm run dev e teste todas as operações.
+7. Faça npm run typecheck e npm run build antes de publicar na Vercel.
+8. Teste a instalação PWA usando o endereço HTTPS publicado.
+
+AVISO: ambiente de criação não conseguiu instalar dependências npm por erro de DNS.
+17 testes de funções financeiras/estrutura SQL passaram, mas o app e o SQL não foram executados de ponta a ponta com Supabase real. Há funcionalidades parciais documentadas no STATUS_DA_ENTREGA.md.
